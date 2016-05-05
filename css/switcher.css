@@ -1,0 +1,127 @@
+/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+	.sw-malbel {
+		height: 34px;
+		margin: 0 -15px;
+		padding: 7px 0 0 15px;
+		background: url(../images/switcher/sw_bckg.jpg);
+	}
+
+	#style-switcher {
+		background: url(../images/switcher/texture_greydark.jpg);
+		width:275px;
+		padding-left: 15px;
+		position:fixed;
+		top:50px;
+		z-index:99999;
+		left:-290px;
+		border-radius: 0 0 3px 0;
+	}
+	
+	#style-switcher h2 {
+		color: #fff;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	#style-switcher h2 a {
+		background: url("../images/switcher/switcher.png") no-repeat scroll left center transparent;
+		display: block;
+		height: 41px;
+		position: absolute;
+		right: -39px;
+		text-indent: -9999px;
+		top: 0;
+		width: 39px;
+		border-radius: 0 3px 3px 0;
+	}
+
+	#style-switcher h3 {
+		color:#333;
+		font-size:14px;
+		margin: 10px 0 -3px 3px;
+	}
+
+	#style-switcher h4 {
+		color:#333;
+		font-size:12px;
+		font-weight: 600;
+	}
+	
+	.big-colors { list-style:none; margin:10px 0px 10px 0px; overflow: hidden}
+	.big-colors li { float:left; margin:2px; }
+	.big-colors li a { display: block; width:38px; height:38px; cursor: pointer;} 
+	.big-colors li a span { height: 38px; width: 38px; display: none;}
+	.big-colors li a.active span { display: block; }
+
+	.small-colors { list-style:none; margin:5px 0px 5px 0px; overflow: hidden}
+	.small-colors li { float:left; margin:2px; }
+	.small-colors li a { display: block; width:24px; height:24px; cursor: pointer;}
+	.small-colors li a span { height: 24px; width: 24px; display: none;}
+	.small-colors li a.active span { display: block; }
+	
+	.sw-left-column {
+		width: 105px;
+		float: left;
+		padding: 3px 0 0 5px;
+	}
+
+	.sw-group {
+		padding-: 0 !important;
+		overflow: hidden;
+	}
+	
+	.nav-blue-grey { background: url(../images/switcher/sw_01.jpg); }
+	.nav-blue-light { background: url(../images/switcher/sw_02.jpg); }
+	.nav-blue-dark {background: url(../images/switcher/sw_03.jpg); }
+	.nav-red-grey { background: url(../images/switcher/sw_04.jpg); }
+	.nav-red-light { background: url(../images/switcher/sw_05.jpg); }
+	.nav-red-dark { background : url(../images/switcher/sw_06.jpg); }
+	.nav-green-grey { background: url(../images/switcher/sw_07.jpg); }
+	.nav-green-light { background: url(../images/switcher/sw_08.jpg); }
+	.nav-green-dark { background: url(../images/switcher/sw_09.jpg); }
+	.nav-orange-grey { background: url(../images/switcher/sw_10.jpg);}
+	.nav-orange-light { background: url(../images/switcher/sw_11.jpg);}
+	.nav-orange-dark { background: url(../images/switcher/sw_12.jpg); }
+
+	.content-txr-01 { background: url(../images/switcher/b_01.jpg); }
+	.content-txr-02 { background: url(../images/switcher/b_02.jpg); }
+	.content-txr-03 { background: url(../images/switcher/b_03.jpg); }
+	.content-txr-04 { background: url(../images/switcher/b_04.jpg); }
+	.content-txr-05 { background: url(../images/switcher/b_05.jpg); }
+	.content-txr-06 { background: url(../images/switcher/b_06.jpg); }
+	.content-txr-07 { background: url(../images/switcher/b_07.jpg); }
+	.content-txr-08 { background: url(../images/switcher/b_08.jpg); }
+
+	.ribbon-slider-blue, .main-blue, .bckg-blue { background: url(../images/switcher/sw_m_01.jpg); }
+	.ribbon-slider-red, .main-red, .bckg-red { background: url(../images/switcher/sw_m_02.jpg); }
+	.ribbon-slider-green, .main-green, .bckg-green { background: url(../images/switcher/sw_m_03.jpg); }
+	.ribbon-slider-orange, .main-orange, .bckg-orange { background: url(../images/switcher/sw_m_04.jpg); }
+	.ribbon-slider-black { background: url(../images/switcher/sw_m_05.jpg); }
+
+	.bckg-blue-dark { background: url(../images/switcher/sw_m_06.jpg); }
+	.bckg-red-dark { background: url(../images/switcher/sw_m_09.jpg); }
+	.bckg-green-dark { background: url(../images/switcher/sw_m_07.jpg); }
+	.bckg-orange-dark { background: url(../images/switcher/sw_m_08.jpg); }
+	.bckg-blue-leather { background: url(../images/switcher/sw_m_11.jpg); }
+	.bckg-red-leather { background: url(../images/switcher/sw_m_14.jpg); }
+	.bckg-green-leather { background: url(../images/switcher/sw_m_12.jpg); }
+	.bckg-orange-leather { background: url(../images/switcher/sw_m_13.jpg); }
+	.bckg-black-leather { background: url(../images/switcher/sw_m_10.jpg); }
+	.bckg-white-leather { background: url(../images/switcher/sw_m_15.jpg); }
+	.bckg-black-lines { background: url(../images/switcher/sw_m_16.jpg); }
+
+	.s-standart { background: url(../images/switcher/sw_s_01.jpg); }
+	.s-thread, .s-thread2 { background: url(../images/switcher/sw_s_02.jpg); }
+	.s-lines { background: url(../images/switcher/sw_s_03.jpg); }
+	.s-dotted { background: url(../images/switcher/sw_s_04.jpg); }
+
+
+	#reset {margin: 10px 0 15px 0; background: url(../images/switcher/reset.jpg); height: 38px; width: 108px; text-align: center;}
+	#reset a {color: #fff; font-size: 14px; line-height: 38px; padding: 5px 30px;}
+
+
+	
+	@media only screen and (max-width: 568px) {#style-switcher {display: none;}}
